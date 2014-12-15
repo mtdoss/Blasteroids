@@ -1,0 +1,24 @@
+#load-screen {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  bottom: 500px;
+  left: 200px;
+  text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#play {
+  width: 70px;
+  height: 45px;
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  left: 120px;
+}

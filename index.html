@@ -1,5 +1,6 @@
 <html>
   <head>
+    <script src="./lib/jquery.js"></script>
     <script src="./lib/movingObject.js"></script>
     <script src="./lib/utils.js"></script>
     <script src="./lib/asteroid.js"></script>
@@ -11,6 +12,19 @@
   </head>
   <body>
     <canvas id="game-canvas" height='600' width='800'></canvas>
+    <div id="load-screen">
+        <h1 class="title">Welcome to Asteroids!</h1>
+        <p>
+          CONTROLS: Up: accelerate <br>
+                    Down: Reverse direction<br>
+                    Left: Rotate left<br>
+                    Right: Rotate right<br>
+                    Space: Fire<br>
+
+          Destroy asteroids while keeping your ship alive. Touch green circles to get bonus points!
+        </p>
+        <button class="play">Play</button>
+      </div>
     <script>
       var canvasEl = document.getElementById("game-canvas");
       var ctx = canvasEl.getContext('2d');
@@ -21,7 +35,7 @@
         ctx.drawImage(img, 0, 0, 800, 600);
       };
       img.src = './lib/background.jpg';
-      gameView.start();
+      gameView.bindStart();
     </script>
   </body>
 </html>

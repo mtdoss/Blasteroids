@@ -1,5 +1,6 @@
 body {
   max-height: 700px;
+  max-width: 850px;
 }
 #load-screen {
   color: white;

@@ -14,3 +14,9 @@ better as the levels go higher!
 extra lives
 
 * Get more points per asteroid destroyed as the levels get higher
+
+TO DO:
+
+* Move util files into util folder
+
+* Add explosions to asteroids

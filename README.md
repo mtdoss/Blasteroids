@@ -1,4 +1,4 @@
-Click <a href="rawgit.com/mtdoss/blasteroids/master/index.html">here to play!</a>
+Click <a href="http://rawgit.com/mtdoss/blasteroids/master/index.html">here to play!</a>
 
 My own version of the classic Atari game, in the browser. Some features:
 

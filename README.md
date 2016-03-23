@@ -1,4 +1,4 @@
-Click <a href="http://rawgit.com/mtdoss/blasteroids/master/index.html">here to play!</a>
+###Click <a href="http://rawgit.com/mtdoss/blasteroids/master/index.html">here to play!</a>
 
 My own version of the classic Atari game, in the browser. Some features:
 
@@ -14,9 +14,3 @@ better as the levels go higher!
 extra lives
 
 * Get more points per asteroid destroyed as the levels get higher
-
-TO DO:
-
-* Move util files into util folder
-
-* Add explosions to asteroids
